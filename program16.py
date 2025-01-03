@@ -1,6 +1,0 @@
-list1=input("Enter the colors for list1 seperated by coma:")
-list2=input("Enter the colors for list2 seperated by coma:")
-l1=list1.split(',')
-l2=list2.split(',')
-result=set(l1)-set(l2)
-print(result)
